@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-var version string
+var Revision string
 
 type MoveCategory struct {
 	ID    int    `json:"id"`
@@ -26,7 +26,7 @@ type MoveCategory struct {
 func main() {
 	start := time.Now()
 
-	fmt.Println("version ⭐️: ", version)
+	fmt.Println("Revision ⭐️: ", Revision)
 
 	// var a []int
 	// fmt.Println("a: ", a)
