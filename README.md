@@ -4,5 +4,7 @@
 
 ```sh
 # mac 用にソースコードをビルド (ldflags にバージョンを設定)
-GOOS=darwin GOARCH=amd64 go build -ldflags
+make build-mac
+# ビルドしたバイナリを実行
+./build_mac
 ```
